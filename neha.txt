@@ -1,0 +1,51 @@
+# Clone the repository
+git clone https://github.com/ahen22/GitHub-s_Collaboration_Practice.git
+
+# Navigate to the cloned directory
+cd GitHub-s_Collaboration_Practice
+
+# Open a file for editing
+nano "Group Project.md"
+
+# Open a file for editing
+Nano “neha.txt”
+
+# Create a new branch called neha_branch
+git checkout -b neha_branch
+
+# Add all changes to the staging area
+git add .
+
+# Commit the changes on the new branch
+git commit -m "adding new branch"
+
+# Push the new branch and set the upstream branch
+git push --set-upstream origin neha_branch
+
+# Check the current branch
+git branch
+
+# Switch to the main branch
+git checkout main
+
+# Pull latest changes on main branch
+git pull
+
+# Add all changes to the staging area
+git add .
+
+# Commit changes on main branch
+git commit -m "minor edits"
+
+# Push changes to the remote repository on main branch
+git push
+
+# Switch to neha_branch
+git checkout neha_branch
+
+# Merge changes from main into neha_branch
+git merge main
+
+# Push merged changes on neha_branch
+git push
+
