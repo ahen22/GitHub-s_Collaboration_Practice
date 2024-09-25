@@ -1,5 +1,7 @@
-Degree Programs & Research Interests of Members 
+# Degree Programs & Research Interests of Members 
 
-Neha Malhotra
+## Neha Malhotra
+
 Masters in Development Practices
+
 Energy Policy & Decarbonisation Strategies
