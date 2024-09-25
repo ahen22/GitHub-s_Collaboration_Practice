@@ -1,1 +1,1 @@
-# GitHub-s_Collaboration_Practice
+# GitHub_Collaboration_Practice
