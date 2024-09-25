@@ -1,0 +1,10 @@
+git clone https://github.com/ahen22/GitHub_Collaboration_Practice.git
+cd Github_Collaboration_Practice
+git checkout -b autumn_branch
+git merge main
+nano Group Project
+touch autumn_text
+nano autumn_text
+git add .
+git commit -m "Autumn's edits"
+git push -u origin autumn_branch
