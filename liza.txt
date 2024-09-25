@@ -1,0 +1,27 @@
+ollaboration_Practice.git
+Cloning into 'GitHub_Collaboration_Practice'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 29 (delta 6), reused 20 (delta 5), pack-reused 0 (from 0)
+Receiving objects: 100% (29/29), 5.82 KiB | 1.46 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+(base) liza@wifi-10-41-102-56 git % git checkout -b "liza_branch"
+Switched to a new branch 'liza_branch'
+(base) liza@wifi-10-41-102-56 git % ls
+CSS_MyVersion
+Computational-Social-Science-Projects
+Computational-Social-Science-Training-Program
+GitHub_Collaboration_Practice
+(base) liza@wifi-10-41-102-56 git % cd GitHub_Collaboration_Practice 
+(base) liza@wifi-10-41-102-56 GitHub_Collaboration_Practice % ls
+Group Project.md	README.md		autumn.txt
+(base) liza@wifi-10-41-102-56 GitHub_Collaboration_Practice % nano Group\ 
+Project.md
+(base) liza@wifi-10-41-102-56 GitHub_Collaboration_Practice % touch 
+liza.txt
+(base) liza@wifi-10-41-102-56 GitHub_Collaboration_Practice % nano 
+liza.txt
+git add .
+git commit -m "Liza's edits"
+git push -u origin liza_branch
